@@ -81,7 +81,7 @@ export function FormAddImage({ closeModal }: FormAddImageProps): JSX.Element {
           status: 'error',
           title: 'Imagem não adcionada',
           description:
-            'É preciso adicionar e aguardar o upload de uma imagem antes de realizar o cadastro',
+            'É preciso adicionar e aguardar o upload de uma imagem antes de realizar o cadastro.',
         });
         return;
       }
